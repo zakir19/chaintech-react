@@ -24,3 +24,15 @@ Steps
 3.  Access: The `<ProtectedRoute>` checks the global `user` state before rendering the restricted components.
 4.  Logout: Both `sessionUser` in `localStorage` and the global `user` state are cleared.
 
+Project Structure
+
+```bash
+src/
+├── components/
+│   ├── AuthContext.js
+│   ├── Login.js
+│   ├── Profile.js
+│   ├── ProtectedRoute.js
+│   └── Register.js
+├── App.js
+└── index.js
